@@ -37,7 +37,7 @@ class AnimeListDatabaseTest {
         db.close()
     }
 
-    @Test
+    /*@Test
     @Throws(Exception::class)
     fun writeUserAndReadInList() {
         val anime = Anime(
@@ -57,5 +57,5 @@ class AnimeListDatabaseTest {
 
         val details = animeDao.getDetails(anime.title)
 
-    }
+    }*/
 }
